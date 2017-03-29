@@ -24,15 +24,5 @@ def find_max_gain(ary)
       end
     end
   end
-  puts gain
+  gain
 end
-
-puts find_max_gain([1, -1, 2, 7, 19, -1, -9, 0, 3]) # 20 (1 -> 4)
-puts find_max_gain([8, 7, 6, 5, 4, 3, 2, 2, 1]) # 0 (0 -> 0)
-puts find_max_gain([1, 2, 3, 4, 5, 6, 7, 8]) # 7 (0 -> 7)
-puts find_max_gain([8, 6, 4, 3, 1, 2, 5, 7]) # 6 (4 -> 7)
-puts find_max_gain([1, 3, 4, 6, 9, 8, 3, -4]) # 8 (0 -> 4)
-puts find_max_gain([0, 2, 1, 2, 1, 2, 1, -1]) # 2 (0 -> 1)
-puts find_max_gain([8, 6, 3, 2, 3]) # 1 (3 -> 4)
-puts find_max_gain([1, 10, 3, -20, -10]) # 10 (3 -> 4)
-puts find_max_gain([0, 19, 3, -22, -4]) # 19 (0 -> 1)
