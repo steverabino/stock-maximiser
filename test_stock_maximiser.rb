@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'stock-max'
+require_relative 'stock_maximiser'
 
 class TestCrateLocator < Minitest::Test
   def test_regular_example
